@@ -1,0 +1,71 @@
+<main class="background-color" style=" height: calc(100% - 6vh);"> 
+    <div style="max-width: 600px; margin: 0 auto;">
+        <h3 style="text-align: center; padding-top: 10px; margin-bottom: 20px;">Quali servizi forniamo ai nostri clienti:</h3>
+        <button (click)="rotateIcon('masonryArrow')" class="btn btn-primary btn-custom" type="button" data-bs-toggle="collapse" data-bs-target="#masonry"
+            aria-expanded="false" aria-controls="masonry" style="width: 100%; margin-bottom: 10px;">
+            Muratura
+            <i id="masonryArrow" class="bi bi-arrow-up"></i>
+        </button>
+        <div  class="collapse" id="masonry">
+            <ul class="list-group">
+                <li class="list-group-item">Ristrutturazione e Restauro</li>
+                <li class="list-group-item">Rifacimento di Facciate</li>
+                <li class="list-group-item">Posa di Pavimenti e Rivestimenti</li>
+                <li class="list-group-item">Lavori in Pietra</li>
+                <li class="list-group-item">Intonaci e Stuccature</li>
+                <li class="list-group-item">Impermeabilizzazioni</li>
+                <li class="list-group-item">Realizzazione di cappotti termici</li>
+                <li class="list-group-item">Manutenzione ordinaria e straordinaria</li>
+                <li class="list-group-item">Opere di demolizione</li>
+            </ul>
+        </div>
+    </div>
+    <div style="max-width: 600px; margin: 0 auto;">
+        <button (click)="rotateIcon('plumbingArrow')" class="btn btn-primary btn-custom" type="button" data-bs-toggle="collapse" data-bs-target="#plumbing"
+            aria-expanded="false" aria-controls="plumbing" style="width: 100%; margin-bottom: 10px;">
+            Idraulica
+            <i id="plumbingArrow" class="bi bi-arrow-up"></i>
+        </button>
+        <div class="collapse" id="plumbing">
+            <ul class="list-group">
+                <li class="list-group-item">Installazione di Impianti Idraulici</li>
+                <li class="list-group-item">Riparazione e Manutenzione</li>
+                <li class="list-group-item">Impianti di Riscaldamento</li>
+                <li class="list-group-item">Installazione di Sanitari</li>
+                <li class="list-group-item">Impianti di Irrigazione</li>
+                <li class="list-group-item">Impianti di Scarico</li>
+                <li class="list-group-item">Sistemi di Raccoglimento e Smaltimento delle Acque Piovane</li>
+            </ul>
+        </div>
+    </div>
+    <div style="max-width: 600px; margin: 0 auto;">
+        <button (click)="rotateIcon('electricalArrow')" class="btn btn-primary btn-custom" type="button" data-bs-toggle="collapse" data-bs-target="#electrical"
+            aria-expanded="false" aria-controls="electrical" style="width: 100%; margin-bottom: 10px;">
+            Elettrico
+            <i id="electricalArrow" class="bi bi-arrow-up"></i>
+        </button>
+        <div class="collapse" id="electrical">
+            <ul class="list-group">
+                <li class="list-group-item">Installazione di Impianti Elettrici</li>
+                <li class="list-group-item">Manutenzione e Riparazioni</li>
+                <li class="list-group-item">Impianti di Illuminazione</li>
+                <li class="list-group-item">Quadri Elettrici</li>
+            </ul>
+        </div>
+    </div>
+    <div style="max-width: 600px; margin: 0 auto;">
+        <button (click)="rotateIcon('gardeningArrow')" class="btn btn-primary btn-custom" type="button" data-bs-toggle="collapse" data-bs-target="#gardening"
+            aria-expanded="false" aria-controls="gardening" style="width: 100%; margin-bottom: 10px;">
+            Giardinaggio
+            <i id="gardeningArrow" class="bi bi-arrow-up"></i>
+        </button>
+        <div class="collapse" id="gardening">
+            <ul class="list-group">
+                <li class="list-group-item">Manutenzione Ordinaria e Straordinaria</li>
+                <li class="list-group-item">Impianti di Irrigazione</li>
+                <li class="list-group-item">Potatura e Cura degli Alberi</li>
+                <li class="list-group-item">Prati e Tappeti Erbosi</li>
+            </ul>
+        </div>
+    </div>
+</main>

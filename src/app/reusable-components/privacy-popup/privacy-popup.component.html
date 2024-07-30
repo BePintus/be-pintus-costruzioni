@@ -1,0 +1,21 @@
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h5 class="modal-title">Informativa sulla Privacy</h5>
+    <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+  </div>
+  <div class="modal-body">
+    <p>Il nostro sito web si impegna a rispettare la privacy degli utenti. Non raccogliamo né memorizziamo alcun dato personale tramite il nostro sito.</p>
+    <p><strong>Uso dei Cookies e di localStorage</strong><br>
+      Questo sito non utilizza cookie per raccogliere informazioni personali o tracciare il comportamento degli utenti. Tuttavia, utilizziamo il <code>localStorage</code> del browser per memorizzare alcuni valori che ci aiutano a migliorare l'esperienza dell'utente. Questi valori non contengono informazioni personali e includono:</p>
+      <ul>
+          <li>Un valore che dice se un utente ha visitato il sito.</li>
+          <li>La versione della policy sulla privacy.</li>
+      </ul>         <p><strong>Conformità al GDPR</strong><br>Anche se non raccogliamo dati personali, ci impegniamo a mantenere la conformità con il Regolamento Generale sulla Protezione dei Dati (GDPR) dell'Unione Europea. Questo sito è progettato per operare in conformità con le normative vigenti in materia di privacy.</p>
+    <p><strong>Diritti degli Utenti</strong><br>Secondo il GDPR, gli utenti hanno il diritto di accedere, rettificare, cancellare e portare i propri dati personali. Anche se non raccogliamo tali dati, ci impegniamo a rispondere a qualsiasi domanda o preoccupazione riguardante la privacy.</p>
+    <p><strong>Contatti</strong><br>Se hai domande o dubbi riguardanti la nostra politica sulla privacy, ti preghiamo di contattarci tramite <a href="mailto:bepintuscostruzioni@outlook.it">bepintuscostruzioni&#64;outlook.it</a>.</p>
+    <p><strong>Aggiornamenti dell'Informativa sulla Privacy</strong><br>Potremmo aggiornare questa informativa sulla privacy periodicamente. Qualsiasi cambiamento sarà pubblicato su questa pagina.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="modal.dismiss('Close click')">Chiudi</button>
+  </div>
+</ng-template>

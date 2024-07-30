@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+.background-color {
+    background-color: #d4d4d4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 6vh);
+    min-width: 100vw;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.info {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ ul li {
+    margin-bottom: 10px;
+    word-wrap: break-word; /* Aggiunto per gestire parole lunghe */
+}
+
+
+/* Aggiungi questo CSS alla tua definizione di stili */
+
+.navbar {
+    position: relative;
+    z-index: 1000;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .collapse.show {
+    position: relative;
+    z-index: 1100;
+  }
+  
+  .collapse {
+    position: relative;
+    z-index: 100;
+  }
+  
+  main {
+    position: relative;
+    z-index: 1;
+  }
+  

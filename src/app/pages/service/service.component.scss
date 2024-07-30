@@ -1,0 +1,16 @@
+.btn-custom {
+    display: flex;
+    justify-content: space-between; /* Spazio tra i contenuti */
+    align-items: center; /* Allineamento verticale */
+    width: 100%;
+    margin-bottom: 10px;
+    padding-right: 15px; /* Spazio a destra per l'icona */
+}
+
+.collapse {
+    margin-bottom: 10px;
+}
+
+li {
+    margin: 0px;
+}
