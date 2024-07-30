@@ -15,7 +15,7 @@ export const routes: Routes = [
         component:HomeComponent
     },
     {
-        path:'chi-siamo',
+        path:'who-we-are',
         component:WhoWeAreComponent
     },
     {
