@@ -1,7 +1,20 @@
 <main class="container background-color">        
-    <section style="background-color: rgba(37, 37, 37, 0.932); border-radius: 10px; padding: 5px; margin-left: 40px; margin-right: 40px;" >
-        <h2 style="text-align: center; color: white;">Dalla fontamenta alla manutenzione, offriamo risultati che durano nel tempo.</h2>
-        <h2 style="text-align: center; color: white;"><a href="contattaci">Contattaci</a> per avere maggiori informazioni o semplicemente per fissare un appuntamento.</h2>
-    </section>
+    <table style="width: calc(100% - 120px); background-color: rgba(37, 37, 37, 0.932); border-radius: 10px; padding: 5px; border-collapse: separate; border-spacing: 10px; margin-left: auto; margin-right: auto;">
+        <tr>
+            <td style="text-align: center; color: white;">
+                <h2>Dalle fondamenta alla manutenzione, offriamo risultati che durano nel tempo.</h2>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; color: white;">
+                <h2>Per avere maggiori informazioni o semplicemente per fissare un appuntamento:</h2>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">
+                <button>Contattaci</button>
+            </td>
+        </tr>
+    </table>
 </main>
 <app-privacy-popup *ngIf="isVisited || haveNewPolicyVersion" [policyVersion]="currentVersion"></app-privacy-popup>
