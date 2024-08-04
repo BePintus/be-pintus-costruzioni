@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-who-we-are',
+  selector: 'app-chi-siamo',
   standalone: true,
   imports: [],
   templateUrl: './who-we-are.component.html',

@@ -1,16 +1,25 @@
 .btn-custom {
-    display: flex;
-    justify-content: space-between; /* Spazio tra i contenuti */
-    align-items: center; /* Allineamento verticale */
-    width: 100%;
-    margin-bottom: 10px;
+    width: 98%;
+    margin-bottom: 5px;
     padding-right: 15px; /* Spazio a destra per l'icona */
 }
 
 .collapse {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.button-div{
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding-bottom: 5px;
 }
 
 li {
     margin: 0px;
+}
+
+.button-div {
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }

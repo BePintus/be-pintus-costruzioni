@@ -6,3 +6,31 @@ ul {
 li {
     margin: 0px;
 }
+
+.container-a {
+    display: table;
+    width: 100%;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle; /* Allinea verticalmente l'icona al centro del testo */
+}
+
+.text-container {
+    display: table-cell;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 1px; /* Permette al testo di andare in overflow */
+}
+
+.navbar-brand {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+
