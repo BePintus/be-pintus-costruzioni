@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --base-href=/be-pintus-costruzioni/ --output-path=docs",
-    "postbuild": "mv docs/browser/* docs/ && rmdir docs/browser && cp sitemap.xml docs && cp robots.txt docs && ngh --dir=docs",
+    "postbuild": "mv docs/browser/* docs/ && rmdir docs/browser && cp sitemap.xml docs && cp robots.txt docs && cp googleb8ca92d290e8dda4.html docs && ngh --dir=docs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
