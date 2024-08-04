@@ -1,5 +1,5 @@
 .btn-custom {
-    width: 98%;
+    width: 100%;
     margin-bottom: 5px;
     padding-right: 15px; /* Spazio a destra per l'icona */
 }
@@ -9,7 +9,7 @@
 }
 
 .button-div{
-    max-width: 600px; 
+    max-width: 800px; 
     margin: 0 auto; 
     padding-bottom: 5px;
 }
@@ -18,8 +18,3 @@ li {
     margin: 0px;
 }
 
-.button-div {
- display: flex;
- justify-content: center;
- align-items: center;
-}
